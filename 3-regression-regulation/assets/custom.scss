@@ -1,0 +1,115 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+
+$first-color : #1f2630;
+$second-color: #7fafdf;
+$third-color : #252e3f;
+$fourth-color: #fba21a;
+
+body, input, label {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: $second-color !important;
+}
+
+.description {
+  color: $second-color !important;
+}
+
+.section {
+  background-color: $first-color;
+  //padding: 10px !important;
+  //margin: 10px !important;
+}
+
+.box {
+  background-color: $third-color !important;
+}
+
+.input {
+  background-color: transparent !important;
+  .Select {
+    background-color: transparent !important;
+    border: 0;
+  }
+}
+
+/* Dropdown
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.Select-value {
+  cursor: pointer;
+}
+
+.Select-control {
+  color: $second-color !important;
+}
+
+.Select {
+  color: $second-color !important;
+}
+
+.Select-menu-outer {
+  background-color: $third-color !important;
+  border: 1px solid $second-color !important;
+}
+
+.Select div {
+  background-color: $third-color !important;
+}
+
+.Select-menu-outer div:hover {
+  background-color: rgba(255, 255, 255, 0.01) !important;
+  cursor: pointer;
+}
+
+.Select-value-label {
+  color: $second-color !important;
+}
+
+.Select--single > .Select-control .Select-value, .Select-placeholder {
+  border: 1px solid $second-color !important;
+  border-radius: 4px !important;
+}
+
+/* Slider
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#slider-text, #chart-selector {
+    margin-bottom: 2rem !important;
+    font-size: 2rem;
+}
+
+
+@media only screen and (max-width: 550px) {
+    .rc-slider-mark-text {
+        font-size: 50%;
+    }
+
+    /*
+    .description {
+        font-size: 1rem;
+    }
+    */
+}
+
+/*
+#slider-container {
+    background-color: #252e3f;
+    padding: 2rem 6rem 4rem 4rem;
+    height: 8rem;
+}
+*/
+
+.rc-slider-dot-active, .rc-slider-handle {
+    border-color: $fourth-color !important;
+}
+
+.rc-slider-track {
+    background-color: $fourth-color !important
+}
+
+.rc-slider-rail {
+    background-color: $first-color !important
+}

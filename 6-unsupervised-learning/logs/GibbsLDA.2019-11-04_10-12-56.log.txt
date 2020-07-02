@@ -1,0 +1,2 @@
+2019-11-04 10:13:25 INFO:GibbsLDA:[ITER] 0,	elapsed time:12.27,	log_likelihood:-10869568.00
+2019-11-04 10:13:37 INFO:GibbsLDA:[ITER] 1,	elapsed time:12.11,	log_likelihood:-10532818.41

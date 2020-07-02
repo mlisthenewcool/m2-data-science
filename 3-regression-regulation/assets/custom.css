@@ -1,0 +1,106 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+body, input, label {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #7fafdf !important;
+}
+
+.description {
+  color: #7fafdf !important;
+}
+
+.section {
+  background-color: #1f2630;
+}
+
+.box {
+  background-color: #252e3f !important;
+}
+
+.input {
+  background-color: transparent !important;
+}
+.input .Select {
+  background-color: transparent !important;
+  border: 0;
+}
+
+/* Dropdown
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.Select-value {
+  cursor: pointer;
+}
+
+.Select-control {
+  color: #7fafdf !important;
+}
+
+.Select {
+  color: #7fafdf !important;
+}
+
+.Select-menu-outer {
+  background-color: #252e3f !important;
+  border: 1px solid #7fafdf !important;
+}
+
+.Select div {
+  background-color: #252e3f !important;
+}
+
+.Select-menu-outer div:hover {
+  background-color: rgba(255, 255, 255, 0.01) !important;
+  cursor: pointer;
+}
+
+.Select-value-label {
+  color: #7fafdf !important;
+}
+
+.Select--single > .Select-control .Select-value, .Select-placeholder {
+  border: 1px solid #7fafdf !important;
+  border-radius: 4px !important;
+}
+
+/* Slider
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#slider-text, #chart-selector {
+  margin-bottom: 2rem !important;
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 550px) {
+  .rc-slider-mark-text {
+    font-size: 50%;
+  }
+
+  /*
+  .description {
+      font-size: 1rem;
+  }
+  */
+}
+/*
+#slider-container {
+    background-color: #252e3f;
+    padding: 2rem 6rem 4rem 4rem;
+    height: 8rem;
+}
+*/
+.rc-slider-dot-active, .rc-slider-handle {
+  border-color: #fba21a !important;
+}
+
+.rc-slider-track {
+  background-color: #fba21a !important;
+}
+
+.rc-slider-rail {
+  background-color: #1f2630 !important;
+}
+
+/*# sourceMappingURL=custom.css.map */

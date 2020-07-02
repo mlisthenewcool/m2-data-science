@@ -1,0 +1,2 @@
+2019-11-04 09:10:11 INFO:AuthorTopicModel:[INIT] 0	elapsed_time:42.29	log_likelihood:-10863885.84
+2019-11-04 09:10:53 INFO:AuthorTopicModel:[INIT] 1	elapsed_time:41.96	log_likelihood:-10648121.78
